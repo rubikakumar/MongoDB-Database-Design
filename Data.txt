@@ -11,11 +11,11 @@ db.users.insertMany([
 // Attendance Collection
 
 db.attendance.insertMany([
-  { "userid": 1, "topic_id": 3, "attended": true, "percentage": 88 },
-  { "userid": 2, "topic_id": 1, "attended": true, "percentage": 91 },
-  { "userid": 3, "topic_id": 4, "attended": false, "percentage": 76 },
-  { "userid": 4, "topic_id": 2, "attended": true, "percentage": 95 },
-  { "userid": 5, "topic_id": 5, "attended": false, "percentage": 80 }
+  { "user_id": 1, "topic_id": 3, "attended": true, "percentage": 88 },
+  { "user_id": 2, "topic_id": 1, "attended": true, "percentage": 91 },
+  { "user_id": 3, "topic_id": 4, "attended": false, "percentage": 76 },
+  { "user_id": 4, "topic_id": 2, "attended": true, "percentage": 95 },
+  { "user_id": 5, "topic_id": 5, "attended": false, "percentage": 80 }
 ]);
 
 // Codekata Collection
