@@ -1,0 +1,44 @@
+[
+    {
+      "task_id": 1,
+      "user_id": 1,
+      "task": "HTML Project",
+      "due_date": "2020-10-18",
+      "submitted": true,
+      "attendance": "present"
+   
+    },
+    {
+      "task_id": 2,
+      "user_id": 2,
+      "task": "CSS Styling",
+      "due_date": "2020-10-22",
+      "submitted": false,
+      "attendance": "present"
+    },
+    {
+      "task_id": 3,
+      "user_id": 3,
+      "task": "JavaScript Challenge",
+      "due_date": "2020-10-28",
+      "submitted": false,
+      "attendance": "absent"
+    },
+    {
+      "task_id": 4,
+      "user_id": 4,
+      "task": "React Application",
+      "due_date": "2020-11-05",
+      "submitted": true,
+      "attendance": "present"
+    },
+    {
+      "task_id": 5,
+      "user_id": 5,
+      "task": "Node.js Server Setup",
+      "due_date": "2020-11-10",
+      "submitted": false,
+      "attendance": "absent"
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+[
+    {
+      "user_id": 1,
+      "name": "Naruto Uzumaki",
+      "age": 20,
+      "course": "Web Development"
+    },
+    {
+      "user_id": 2,
+      "name": "Sakura Haruno",
+      "age": 22,
+      "course": "Data Science"
+    },
+    {
+      "user_id": 3,
+      "name": "Sasuke Uchiha",
+      "age": 21,
+      "course": "Full Stack Development"
+    },
+    {
+      "user_id": 4,
+      "name": "Kakashi Hatake",
+      "age": 23,
+      "course": "DevOps"
+    },
+    {
+      "user_id": 5,
+      "name": "Hinata Hyuga",
+      "age": 19,
+      "course": "Cybersecurity"
+    }
+  ]
+  

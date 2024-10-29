@@ -1,0 +1,71 @@
+// Users Collection
+
+db.users.insertMany([
+  { "user_id": 1, "name": "Naruto Uzumaki", "age": 20, "course": "Web Development" },
+  { "user_id": 2, "name": "Sakura Haruno", "age": 22, "course": "Data Science" },
+  { "user_id": 3, "name": "Sasuke Uchiha", "age": 21, "course": "Full Stack Development" },
+  { "user_id": 4, "name": "Kakashi Hatake", "age": 23, "course": "DevOps" },
+  { "user_id": 5, "name": "Hinata Hyuga", "age": 19, "course": "Cybersecurity" }
+]);
+
+// Attendance Collection
+
+db.attendance.insertMany([
+  { "userid": 1, "topic_id": 3, "attended": true, "percentage": 88 },
+  { "userid": 2, "topic_id": 1, "attended": true, "percentage": 91 },
+  { "userid": 3, "topic_id": 4, "attended": false, "percentage": 76 },
+  { "userid": 4, "topic_id": 2, "attended": true, "percentage": 95 },
+  { "userid": 5, "topic_id": 5, "attended": false, "percentage": 80 }
+]);
+
+// Codekata Collection
+
+db.codekata.insertMany([
+  { "user_id": 1, "std_id": { "$oid": "654f37662408470e5d9c3b70" }, "total_qn": 150, "completed": 45 },
+  { "user_id": 2, "std_id": { "$oid": "654f37662408470e5d9c3b71" }, "total_qn": 150, "completed": 80 },
+  { "user_id": 3, "std_id": { "$oid": "654f37662408470e5d9c3b72" }, "total_qn": 150, "completed": 100 },
+  { "user_id": 4, "std_id": { "$oid": "654f37662408470e5d9c3b73" }, "total_qn": 150, "completed": 20 },
+  { "user_id": 5, "std_id": { "$oid": "654f37662408470e5d9c3b74" }, "total_qn": 150, "completed": 55 }
+]);
+
+// Company Drives Collection
+
+db.company_drives.insertMany([
+  { "company_name": "Tesla", "date": { "$date": "2020-10-25" }, "no_of_attended": 5, "students_appeared": [1, 2, 3] },
+  { "company_name": "Google", "date": { "$date": "2020-11-10" }, "no_of_attended": 4, "students_appeared": [2, 3, 4] },
+  { "company_name": "Microsoft", "date": { "$date": "2020-11-15" }, "no_of_attended": 6, "students_appeared": [1, 4, 5] },
+  { "company_name": "Amazon", "date": { "$date": "2020-12-01" }, "no_of_attended": 3, "students_appeared": [1, 5] },
+  { "company_name": "Apple", "date": { "$date": "2020-12-15" }, "no_of_attended": 4, "students_appeared": [2, 3, 4] }
+]);
+
+// Mentors Collection
+
+db.mentors.insertMany([
+  { "mentor_name": "Shikamaru Nara", "mentees_count": 20 },
+  { "mentor_name": "Tsunade Senju", "mentees_count": 30 },
+  { "mentor_name": "Jiraiya", "mentees_count": 10 },
+  { "mentor_name": "Kakashi Hatake", "mentees_count": 25 },
+  { "mentor_name": "Mikoto Uchiha", "mentees_count": 18 }
+]);
+
+// Tasks Collection
+
+db.tasks.insertMany([
+  { "task_id": 1, "user_id": 1, "task": "HTML Project", "due_date": "2020-10-18", "submitted": true, "attendance": "present" },
+  { "task_id": 2, "user_id": 2, "task": "CSS Styling", "due_date": "2020-10-22", "submitted": false, "attendance": "present" },
+  { "task_id": 3, "user_id": 3, "task": "JavaScript Challenge", "due_date": "2020-10-28", "submitted": false, "attendance": "absent" },
+  { "task_id": 4, "user_id": 4, "task": "React Application", "due_date": "2020-11-05", "submitted": true, "attendance": "present" },
+  { "task_id": 5, "user_id": 5, "task": "Node.js Server Setup", "due_date": "2020-11-10", "submitted": false, "attendance": "absent" }
+]);
+
+// Topics Collection
+
+db.topics.insertMany([
+  { "topic_id": 1, "topic": "Introduction to HTML", "month": "October" },
+  { "topic_id": 2, "topic": "CSS Basics", "month": "October" },
+  { "topic_id": 3, "topic": "JavaScript Fundamentals", "month": "October" },
+  { "topic_id": 4, "topic": "React Overview", "month": "November" },
+  { "topic_id": 5, "topic": "Node.js Basics", "month": "November" }
+]);
+
+
